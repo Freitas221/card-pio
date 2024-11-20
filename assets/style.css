@@ -13,16 +13,20 @@
 html, body{
     height: 100vh;
     width: 100vw;
-    background: black url(../imagens/fundoDoSite.jpeg) right no-repeat fixed;
-    background-size: cover;
+    background-color: rgba(57, 52, 52, 0.592);
 }
 
 header{
+    background-size: cover;
     font-family: 'Oswald', Arial, Helvetica, sans-serif;
     text-align: center;
     font-size: 2em;
-    background-color: red;
     color: white;
+}
+
+#img01{
+    background: black url(../imagens/mesa.png) right no-repeat;
+    background-size: cover;
 }
 
 nav{
@@ -41,4 +45,28 @@ a > img:hover{
     transform: translate(-1px, -1px);
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.411);
     transition: transform 0.5s, border 1s;
+}
+
+#txt1{
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+    font-size: 3em;
+    text-align: center;
+    color: white;
+    padding: 20px;
+}
+
+ #img02{
+    margin: 10px;
+    height: 250px;
+    width: 300px;
+    border-radius: 50%;
+}
+
+#img03{
+
+    margin: 10px;
+    height: 250px;
+    width: 300px;
+    border-radius: 50%;
+    margin: auto;
 }

@@ -13,21 +13,17 @@
 html, body{
     height: 100vh;
     width: 100vw;
-    background-color: rgba(57, 52, 52, 0.592);
+    background: black url(../imagens/paoFrances1.jpg) right no-repeat fixed;
+    background-size: cover;
     text-align: center;
 }
 
 header{
-    background-size: cover;
+    background-color: #b9792cda;
     font-family: 'Oswald', Arial, Helvetica, sans-serif;
     text-align: center;
     font-size: 2em;
-    color: rgba(0, 0, 0, 0.968);
-}
-
-#img01{
-    background: black url(../imagens/mesaDeCafe.png) right no-repeat;
-    background-size: cover;
+    color: rgba(255, 241, 241, 0.968);
 }
 
 nav{
@@ -62,4 +58,30 @@ a > img:hover{
     height: 200px;
     width: 200px;
     border-radius: 50%;
+    box-sizing: border-box;
+}
+
+#imgs:hover{
+    padding: 0px;
+    margin: 0px;
+    border: 2px solid black;
+    transform: translate(-1px, -1px);
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.411);
+    transition: transform 0.5s, border 1s;
+
+}
+
+#txt2{
+    background-color: rgba(0, 0, 0, 0.568);
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+    margin-top: 50px;
+    font-size: 1.5em;
+    padding: 10px;
+    text-align: justify;
+    color: rgb(255, 255, 255);
+}
+
+::-webkit-scrollbar{
+    width: 0px;
+    height: 0px;
 }
